@@ -159,12 +159,16 @@ button:focus{
 /* **************************************************************************  */
 
 .header{
-
-   border-bottom: 1px solid #ECECEC;
+    background-color: #212121;
+   /* border-bottom: 1px solid #21f391; */
+   position: fixed; /* Fija el encabezado en la parte superior */
+   top: 0;
+   width: 100%;
+   z-index: 100;
 }
 
 .header__web{
-    color: #2196F3;
+    color: #21f391;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -176,7 +180,7 @@ button:focus{
 }
 
 .header__prin{
-    color: #2196F3;
+    color: #21f391;
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
@@ -186,6 +190,7 @@ button:focus{
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
+    color: white;
 }
 
 .header__info{
@@ -215,12 +220,15 @@ button:focus{
 .header__two{
     margin-left: 50px;
     padding-top: 32px;
+    color: white;
 
 }
 
 .header__third{
     margin-left: 50px;
     padding-top: 32px;
+    color: white;
+
     
 }
 
@@ -245,7 +253,7 @@ button:focus{
 
 
 .header__indi{
-    background-color: #2196F3;
+    background-color: #21f391;
     height: 4px;
     display: flex;
     align-items: flex-end;
@@ -754,7 +762,7 @@ button:focus{
 }
 
 .webstudio_two{
-    color: #2196F3;
+    color: #21f391;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
