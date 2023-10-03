@@ -579,6 +579,34 @@ button:focus{
     align-items: flex-end;
 }
 
+.dedication__card__imagen3{
+    width: 370px;
+    height: 294px;
+    background-image: url(../images/ESTUDIO/Migracion.jpg);
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.dedication__card__imagen4{
+    width: 370px;
+    height: 294px;
+    background-image: url(../images/ESTUDIO/AnalisisDatos.jpg);
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.dedication__card__imagen5{
+    width: 370px;
+    height: 294px;
+    background-image: url(../images/ESTUDIO/IA.jpg);
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+
 .dedication__container__label{
     width: 370px;
     height: 70px;
