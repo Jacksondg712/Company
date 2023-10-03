@@ -12,6 +12,7 @@ html {
 body{
     font-style: normal;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 /* Estilos para poner a cero la sangría superior de los elementos */
 h1,
@@ -68,31 +69,31 @@ a:link{
 
 }
 a:hover{
-    color: #2196F3;
+    color: #21f391;
 }
 a:active{
-    color: #2196F3;
+    color: #21f391;
 }
 a:focus{
-    color: #2196F3;
+    color: #21f391;
 }
 button{
-    background-color: #F5F4FA;
+    background-color: #21f391;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     cursor: pointer;
 }
 button:hover{
-    background-color: #2196F3;
+    background-color: #21f391;
     color: #FFFFFF;
 }
 button:active{
-    background-color: #2196F3;
+    background-color: #21f391;
     color: #FFFFFF;
 }
 button:focus{
-    background-color: #2196F3;
+    background-color: #21f391;
     color: #FFFFFF;
 }
 
@@ -102,9 +103,6 @@ button:focus{
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
-
-
-
 }
 
 
@@ -119,14 +117,14 @@ button:focus{
 }
 
 .link__hover:hover .icon{
-    fill: #2196F3;
+    fill: #21f391;
     
     
 }
 
 .link__icon:hover .icon__path{
     
-    fill: #EEEEEE;
+    fill: white;
     
 }
 
@@ -146,7 +144,7 @@ button:focus{
 
 .boder:hover{
     
-    border: 1px solid #2196F3;
+    border: 1px solid #21f391;
     
 }
 
@@ -159,12 +157,17 @@ button:focus{
 /* **************************************************************************  */
 
 .header{
-
-   border-bottom: 1px solid #ECECEC;
+    background-color: #212121;
+   /* border-bottom: 1px solid #21f391; */
+   position: fixed; /* Fija el encabezado en la parte superior */
+   top: 0;
+   width: 100%;
+   z-index: 100;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .header__web{
-    color: #2196F3;
+    color: #21f391;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -176,7 +179,7 @@ button:focus{
 }
 
 .header__prin{
-    color: #2196F3;
+    color: #21f391;
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
@@ -186,6 +189,7 @@ button:focus{
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
+    color: white;
 }
 
 .header__info{
@@ -203,7 +207,7 @@ button:focus{
     margin-bottom: auto;
 }
 .header__text:hover{
-    color: #2196F3;
+    color: #21f391;
 }
 
 .header__one{
@@ -215,17 +219,20 @@ button:focus{
 .header__two{
     margin-left: 50px;
     padding-top: 32px;
+    color: white;
 
 }
 
 .header__third{
     margin-left: 50px;
     padding-top: 32px;
+    color: white;
+
     
 }
 
 .header__four{
-    margin-left: 282px;
+    margin-left: 250px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -234,6 +241,8 @@ button:focus{
     margin-left: 50px;
     padding-top: 32px;
     padding-bottom: 32px;
+    width: 140px;
+    
    
 }
 
@@ -245,7 +254,7 @@ button:focus{
 
 
 .header__indi{
-    background-color: #2196F3;
+    background-color: #21f391;
     height: 4px;
     display: flex;
     align-items: flex-end;
@@ -264,6 +273,7 @@ button:focus{
     margin-right: auto;
     padding: auto;  
     background-image: url("../images/ESTUDIO/Fondo__sol.jpg");
+    margin-top: 80px;
     
 
 }
@@ -291,7 +301,7 @@ button:focus{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    background-color:  #2196F3;
+    background-color:  #21f391;
     color: #FFFFFF;
 
     display: flex;
@@ -321,7 +331,7 @@ button:focus{
 
 .backdrop {
     position: fixed;
-    top:0;
+    top:50px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -376,10 +386,10 @@ button:focus{
 
 
 .modal__input:focus, .modal__input:hover{
-    border: 1px solid #2196F3;
+    border: 1px solid #21f391;
 }
 .modal__input:focus + .modal__imag, .modal__input:hover + .modal__imag{
-    fill: #2196F3;
+    fill: #21f391;
 }
 
 .modal__input{
@@ -424,7 +434,7 @@ button:focus{
 }
 
 .modal__input_coment:focus, .modal__input_coment:hover{
-    border: 1px solid #2196F3;
+    border: 1px solid #21f391;
 }
 
 
@@ -458,10 +468,11 @@ button:focus{
 .modal__Enviar{
     width: 200px;
     height: 50px;
-    background-color: #2196F3;
-    color: #FFFFFF;
-    border: none;
+    background-color: black;
+    color: #21f391;
+    border-radius: 10px; 
     margin: 10px 0  164px 164px;
+    border: none;
 }
 
 
@@ -472,6 +483,7 @@ button:focus{
     padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #515A5A;
 }
 
 .qualities__cap{
@@ -480,6 +492,7 @@ button:focus{
     line-height: 1.14;
     text-transform: uppercase;
     width: 270px;
+    color: #21f391;
 }
 
 .qualities__propi{
@@ -487,8 +500,9 @@ button:focus{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: #757575;
+    color: white;
     margin-top: 10px;
+    
 
 
 
@@ -509,7 +523,7 @@ button:focus{
 .qualities__block{
     width: 270px;
     height: 120px;
-    background: #F5F4FA;
+    background: #99A3A4;
     border-radius: 4px;
     margin-bottom: 30px;
     display: flex;
@@ -523,6 +537,7 @@ button:focus{
     padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #515A5A;
 }
 
 .dedication__wrap{
@@ -537,6 +552,8 @@ button:focus{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    color: #21f391;
+    
 
 }
 
@@ -627,10 +644,11 @@ button:focus{
 /* **************************************************************************  */
 .team{
  
-    background: #F5F4FA;
+    background: #515A5A;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 94px;
+    width: 100%;
 }
 
 .team__title{
@@ -638,7 +656,8 @@ button:focus{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-top: 94px;
+    padding-top: 50px;
+    color: #21f391;
 
 
 }
@@ -676,7 +695,7 @@ button:focus{
     display: flex;
     flex-wrap: wrap;
     gap: 28px;
-    margin-top: 50px;
+    margin-top: 80px;
 
   }
 
@@ -684,7 +703,7 @@ button:focus{
     flex-basis: calc((100% - 111px)/4);
     margin-left: auto;
     margin-right: auto;
-    background: #FFFFFF;
+    background: #99A3A4;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -722,6 +741,11 @@ button:focus{
 
 /* **************************************************************************** */
 
+.customers{
+    display: none;
+}
+
+
 .customers__title{
     font-weight: 700;
     font-size: 36px;
@@ -729,7 +753,7 @@ button:focus{
     text-align: center;
     padding-top: 59px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 
 .customers__list{
@@ -782,7 +806,7 @@ button:focus{
 }
 
 .webstudio_two{
-    color: #2196F3;
+    color: #21f391;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -845,6 +869,21 @@ margin-bottom: 20px;
 
 .port{
     padding-top: 106px;
+    background-color: #515A5A;
+}
+
+.port_title{
+    color: #21f391;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.port_cont_title{
+    width: 100%;    
 }
 
 
@@ -881,10 +920,11 @@ margin-bottom: 20px;
     height: 38px;
     border-radius: 4px;
     margin-left: 280px;
+    background-color: #99A3A4;
 }
 
 .button_portafolio_two{
-    background: #F5F4FA;
+    background: #99A3A4;
     border-radius: 4px;
     text-align: center;
     border: none;
@@ -895,7 +935,7 @@ margin-bottom: 20px;
 }
 
 .button_portafolio_three{
-    background: #F5F4FA;
+    background: #99A3A4;
     border-radius: 4px;
     text-align: center;
     border: none;
@@ -905,7 +945,7 @@ margin-bottom: 20px;
 }
 
 .button_portafolio_four{
-    background: #F5F4FA;
+    background: #99A3A4;
     border-radius: 4px;
     text-align: center;
     border: none;
@@ -915,7 +955,7 @@ margin-bottom: 20px;
 }
 
 .button_portafolio_five{
-    background: #F5F4FA;
+    background: #99A3A4;
     border-radius: 4px;
     text-align: center;
     border: none;
@@ -948,10 +988,10 @@ margin-bottom: 20px;
     flex-basis: calc((100% - 60px)/3);
     margin-left: auto;
     margin-right: auto;
-    width: 371px;
+    width: 370px;
     height: 404px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: #99A3A4;
+    border-radius: 10px;
     box-sizing: border-box;
     margin-top: 30px;
 
@@ -962,8 +1002,8 @@ margin-bottom: 20px;
     position: absolute;
     top: 0;
     height: 294px;
-    width: 369px;
-    background: rgba(33, 150, 243, 0.9);
+    width: 370px;
+    background: #21f391;
     padding: 63px 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -1035,6 +1075,7 @@ margin-bottom: 20px;
 /* *************CARRUSEL*************************************************************  */
 .carrusel {
     position: relative;
+    margin-top: 80px;
   }
   
   .slider {
@@ -1060,7 +1101,7 @@ margin-bottom: 20px;
     left: 50%;
     font-family: 'Pacifico', sans-serif;
     transform: translate(-50%, 50%);
-    background: rgba(0, 123, 255, 0.7);
+    background: #21f391;
     padding: 10px;
     border-radius: 5px;
     color: #ffffff;
@@ -1076,7 +1117,7 @@ margin-bottom: 20px;
   
   .prev,
   .next {
-    background-color: #007bff;
+    background-color: #21f391;
     color: #ffffff;
     border: none;
     padding: 10px 15px;
@@ -1116,12 +1157,13 @@ margin-bottom: 20px;
 /* Estilos para la sección de contacto */
 .south-contact-area {
     padding: 50px 0;
+    background-color: #515A5A;
 }
 
 .contact-heading h2 {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #21f391;
     margin-bottom: 30px;
     display: inline-block; /* Hace que el elemento sea un bloque en línea */
     position: relative; /* Establece una posición relativa para poder posicionar la línea hija */
@@ -1134,7 +1176,7 @@ margin-bottom: 20px;
     left: 0; /* Coloca la línea al inicio del elemento padre */
     width: 100%; /* Establece el ancho al 100% del elemento padre */
     height: 2px; /* Grosor de la línea */
-    background-color: #007bff; /* Color de la línea */
+     /* Color de la línea */
 }
 
 
@@ -1142,7 +1184,7 @@ margin-bottom: 20px;
 .weekly-office-hours h4,
 .address h4 {
     font-size: 20px;
-    color: #555;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -1158,7 +1200,7 @@ margin-bottom: 20px;
     justify-content: space-between;
     margin-bottom: 10px;
     font-size: 16px;
-    color: #555;
+    color: white;
     margin-right: 10px;
 }
 
@@ -1166,7 +1208,7 @@ margin-bottom: 20px;
 .address li i {
     font-weight: bold;
     margin-right: 5px;
-    color: #007bff;
+    color: #21f391;
 }
 
 .contact-form .form-group {
@@ -1175,7 +1217,7 @@ margin-bottom: 20px;
 
 .contact-form label {
     font-size: 20px;
-    color: #333;
+    color: black;
 }
 
 .contact-form .form-control {
@@ -1198,8 +1240,8 @@ margin-bottom: 20px;
 
 .contact-form .btn {
     font-size: 20px;
-    color: #fff;
-    background-color: #007bff;
+    color: white;
+    background-color: #21f391;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
