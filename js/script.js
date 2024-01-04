@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const slider = document.querySelector(".slider");
     const slides = document.querySelectorAll(".slide");
     const prevBtn = document.querySelector(".prev");
-    const nextBtn = document.querySelector(".next");
+    const nextBtn = document.querySelector(".next"); 
   
     let currentIndex = 0;
   
